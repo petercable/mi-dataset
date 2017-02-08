@@ -13,7 +13,7 @@ from mi.core.common import BaseEnum
 from mi.core.exceptions import SampleException, \
     ConfigurationException, \
     DatasetParserException
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey
 from mi.dataset.dataset_parser import SimpleParser, DataSetDriverConfigKeys
 
 # start the logger

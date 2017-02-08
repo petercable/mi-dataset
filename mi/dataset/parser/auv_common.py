@@ -14,8 +14,8 @@ __license__ = 'Apache 2.0'
 import ntplib
 
 from mi.dataset.dataset_parser import SimpleParser
-from mi.core.instrument.data_particle import DataParticle
-from mi.core.instrument.data_particle import DataParticleKey, DataParticleValue
+from mi.core.instrument.dataset_data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticleKey, DataParticleValue
 
 from mi.core.log import get_logger
 log = get_logger()

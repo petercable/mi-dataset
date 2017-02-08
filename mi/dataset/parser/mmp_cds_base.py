@@ -15,7 +15,7 @@ import ntplib
 
 from mi.core.log import get_logger
 from mi.core.common import BaseEnum
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 from mi.core.exceptions import SampleException, NotImplementedException
 from mi.dataset.dataset_parser import SimpleParser
 

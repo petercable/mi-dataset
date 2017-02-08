@@ -20,7 +20,7 @@ from mi.core.common import BaseEnum
 from mi.core.exceptions import DatasetParserException, \
     RecoverableSampleException, \
     ConfigurationException
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 from mi.dataset.dataset_parser import DataSetDriverConfigKeys
 from mi.dataset.dataset_parser import SimpleParser
 from mi.dataset.parser.common_regexes import END_OF_LINE_REGEX, \

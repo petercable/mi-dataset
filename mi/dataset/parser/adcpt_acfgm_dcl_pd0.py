@@ -16,7 +16,7 @@ import ntplib
 import mi.dataset.parser.adcp_pd0 as adcp_pd0
 from mi.core.common import BaseEnum
 from mi.core.exceptions import RecoverableSampleException
-from mi.core.instrument.data_particle import DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticleKey
 from mi.core.log import get_logger
 from mi.dataset.dataset_parser import Parser
 from mi.dataset.parser import utilities

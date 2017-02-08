@@ -16,7 +16,7 @@ import struct
 
 from mi.core.log import get_logger
 log = get_logger()
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey, DataParticleValue
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey, DataParticleValue
 from mi.core.exceptions import SampleException, NotImplementedException, RecoverableSampleException
 from mi.dataset.dataset_parser import SimpleParser
 

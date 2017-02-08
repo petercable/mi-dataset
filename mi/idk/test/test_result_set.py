@@ -12,9 +12,9 @@ __license__ = 'Apache 2.0'
 import numpy
 from mi.core.unit_test import MiUnitTest
 from mi.idk.result_set import ResultSet
-from mi.core.instrument.data_particle import DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticleKey
 
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 
 TEST_PATH = 'mi/idk/test/resources/'
 

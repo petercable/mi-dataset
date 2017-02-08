@@ -20,8 +20,8 @@ import ntplib
 from functools import partial
 from mi.core.log import get_logger ; log = get_logger()
 from mi.core.common import BaseEnum
-from mi.core.instrument.chunker import StringChunker
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey
+from mi.core.instrument.dataset_chunker import StringChunker
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey
 from mi.core.exceptions import SampleException, DatasetParserException
 from mi.dataset.dataset_parser import BufferLoadingParser
 

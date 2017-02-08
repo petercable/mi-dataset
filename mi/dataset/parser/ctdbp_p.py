@@ -23,7 +23,7 @@ Initial Release
 
 import re
 from mi.core.common import BaseEnum
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey, DataParticleValue
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey, DataParticleValue
 from mi.core.exceptions import RecoverableSampleException
 from mi.dataset.dataset_parser import SimpleParser
 from mi.dataset.parser import utilities

@@ -48,7 +48,7 @@ from mi.core.exceptions import \
     SampleException, \
     UnexpectedDataException
 
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey, DataParticleValue
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey, DataParticleValue
 
 ID_INSTRUMENT = 'CT'    # ID for instrument (science) data
 ID_OFFSET = 'CO'        # ID for time offset data

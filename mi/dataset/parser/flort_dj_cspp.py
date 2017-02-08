@@ -21,7 +21,7 @@ log = get_logger()
 from mi.core.common import BaseEnum
 import re
 
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 
 from mi.dataset.parser.common_regexes import INT_REGEX, FLOAT_REGEX, MULTIPLE_TAB_REGEX, END_OF_LINE_REGEX
 

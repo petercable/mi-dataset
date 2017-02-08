@@ -9,7 +9,7 @@ import msgpack
 import ntplib
 import struct
 from mi.core.exceptions import SampleException, RecoverableSampleException
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey
 from mi.core.log import get_logger, get_logging_metaclass
 from mi.dataset.dataset_parser import SimpleParser
 from mi.core.common import BaseEnum

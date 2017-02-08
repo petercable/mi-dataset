@@ -24,7 +24,7 @@ from bs4 import BeautifulSoup
 
 from mi.core.common import BaseEnum
 from mi.core.exceptions import SampleException
-from mi.core.instrument.data_particle import DataParticleKey, DataParticle, DataParticleValue
+from mi.core.instrument.dataset_data_particle import DataParticleKey, DataParticle, DataParticleValue
 from mi.core.log import get_logger
 from mi.dataset.dataset_parser import SimpleParser
 

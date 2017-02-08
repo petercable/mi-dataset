@@ -20,7 +20,7 @@ log = get_logger()
 
 from mi.core.common import BaseEnum
 from mi.core.exceptions import RecoverableSampleException
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 
 from mi.dataset.parser.cspp_base import \
     CsppParser, \

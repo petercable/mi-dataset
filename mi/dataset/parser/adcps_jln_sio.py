@@ -24,7 +24,7 @@ from mi.dataset.parser import utilities
 
 from mi.core.common import BaseEnum
 from mi.core.exceptions import RecoverableSampleException, UnexpectedDataException
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey, DataParticleValue
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey, DataParticleValue
 
 
 class DataParticleType(BaseEnum):

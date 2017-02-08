@@ -22,7 +22,7 @@ import struct
 from mi.core.log import get_logger
 log = get_logger()
 from mi.core.common import BaseEnum
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 
 ##############
 # There is no parser in this file, this dataset uses the parser in global_wfp_e_file_parser.py

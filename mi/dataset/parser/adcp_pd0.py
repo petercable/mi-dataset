@@ -15,7 +15,7 @@ import struct
 from mi.core.common import BaseEnum
 from mi.core.exceptions import RecoverableSampleException
 from mi.core.exceptions import UnexpectedDataException
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey
 from mi.core.log import get_logger
 from mi.dataset.dataset_parser import SimpleParser, DataSetDriverConfigKeys
 from mi.dataset.parser.pd0_parser import AdcpPd0Record, \

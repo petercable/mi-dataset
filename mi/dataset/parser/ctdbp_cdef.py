@@ -36,7 +36,7 @@ log = get_logger()
 from mi.core.common import BaseEnum
 from mi.core.exceptions import UnexpectedDataException
 
-from mi.core.instrument.data_particle import \
+from mi.core.instrument.dataset_data_particle import \
     DataParticle, \
     DataParticleKey, \
     DataParticleValue

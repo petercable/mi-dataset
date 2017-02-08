@@ -42,7 +42,7 @@ from mi.dataset.parser.utilities import dcl_controller_timestamp_to_ntp_time
 from mi.core.common import BaseEnum
 from mi.core.exceptions import UnexpectedDataException
 
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey, DataParticleValue
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey, DataParticleValue
 
 # Basic patterns
 ANY_CHARS = r'.*'              # any characters excluding a newline

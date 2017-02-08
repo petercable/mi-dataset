@@ -13,7 +13,7 @@ import numpy
 
 from mi.core.log import get_logger
 from mi.core.common import BaseEnum
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 from mi.dataset.parser.common_regexes import INT_REGEX, FLOAT_REGEX, MULTIPLE_TAB_REGEX, END_OF_LINE_REGEX
 from mi.dataset.parser.cspp_base import CsppParser, Y_OR_N_REGEX, CsppMetadataDataParticle, MetadataRawDataKey, \
     encode_y_or_n

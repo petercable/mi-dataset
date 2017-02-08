@@ -20,7 +20,7 @@ import ntplib
 from mi.core.log import get_logger
 log = get_logger()
 from mi.core.common import BaseEnum
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey
 from mi.dataset.parser.sio_mule_common import SioParser
 
 DATA_RECORD_BYTES = 11  # Number of bytes in a WC-type file

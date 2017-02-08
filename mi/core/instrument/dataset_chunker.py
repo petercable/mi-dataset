@@ -2,7 +2,7 @@
 
 """
 @package mi.core.instrument.chunker Chunking buffer for MI work
-@file mi/core/instrument/chunker.py
+@file mi/core/instrument/dataset_chunker.py
 @author Steve Foley
 @brief A buffer structure that allows for combining fragments and breaking
     apart multiple instances of the same data from an instrument's data stream.

@@ -16,8 +16,8 @@ import ntplib
 
 from mi.core.log import get_logger
 log = get_logger()
-from mi.core.instrument.chunker import StringChunker
-from mi.core.instrument.data_particle import DataParticleKey
+from mi.core.instrument.dataset_chunker import StringChunker
+from mi.core.instrument.dataset_data_particle import DataParticleKey
 from mi.core.exceptions import RecoverableSampleException, SampleEncodingException
 from mi.core.exceptions import NotImplementedException, UnexpectedDataException
 from mi.core.common import BaseEnum

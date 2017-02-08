@@ -21,7 +21,7 @@ from mi.core.log import get_logger
 log = get_logger()
 
 from mi.core.common import BaseEnum
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 from mi.core.exceptions import SampleException, UnexpectedDataException
 from mi.dataset.parser.sio_mule_common import SioParser, SIO_HEADER_MATCHER
 from mi.dataset.parser.WFP_E_file_common import HEADER_BYTES, STATUS_BYTES, \

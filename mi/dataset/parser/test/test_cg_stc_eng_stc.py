@@ -13,7 +13,7 @@ import ntplib
 from nose.plugins.attrib import attr
 
 from mi.core.exceptions import SampleException
-from mi.core.instrument.data_particle import DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticleKey
 from mi.core.log import get_logger
 from mi.dataset.dataset_parser import DataSetDriverConfigKeys
 from mi.dataset.parser.cg_stc_eng_stc import CgStcEngStcParser, CgStcEngStcParserDataParticle

@@ -13,7 +13,7 @@ import re
 from mi.core.log import get_logger
 from mi.core.exceptions import SampleException, UnexpectedDataException
 from mi.core.common import BaseEnum
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey, \
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey, \
     DataParticleValue
 from mi.dataset.dataset_parser import SimpleParser, DataSetDriverConfigKeys
 from mi.dataset.parser.common_regexes import END_OF_LINE_REGEX, \

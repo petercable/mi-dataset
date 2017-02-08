@@ -21,7 +21,7 @@ log = get_logger()
 from mi.core.exceptions import RecoverableSampleException, ConfigurationException
 from mi.core.common import BaseEnum
 from mi.dataset.dataset_parser import SimpleParser, DataSetDriverConfigKeys
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 from mi.dataset.parser.common_regexes import SPACE_REGEX, DATE_YYYY_MM_DD_REGEX, TIME_HR_MIN_SEC_MSEC_REGEX
 """
 Composition of a properly formed line of data:

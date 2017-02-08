@@ -74,7 +74,7 @@ log = get_logger()
 
 from mi.core.common import BaseEnum
 from mi.core.exceptions import RecoverableSampleException
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey
 from mi.core.log import get_logging_metaclass
 from mi.dataset.dataset_parser import SimpleParser
 from mi.dataset.parser.utilities import dcl_controller_timestamp_to_ntp_time

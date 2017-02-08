@@ -16,7 +16,7 @@ from mi.core.log import get_logger
 log = get_logger()
 from mi.core.exceptions import ConfigurationException, UnexpectedDataException
 from mi.core.common import BaseEnum
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey
 from mi.dataset.dataset_parser import SimpleParser, DataSetDriverConfigKeys
 from mi.dataset.parser.common_regexes import END_OF_LINE_REGEX, \
     DATE_YYYY_MM_DD_REGEX, TIME_HR_MIN_SEC_MSEC_REGEX, INT_REGEX, \

@@ -23,7 +23,7 @@ import re
 from mi.core.common import BaseEnum
 from mi.core.log import get_logger
 log = get_logger()
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 from mi.core.exceptions import ConfigurationException, UnexpectedDataException
 from mi.dataset.parser.utilities import time_2000_to_ntp_time, \
     formatted_timestamp_utc_time

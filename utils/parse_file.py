@@ -52,12 +52,12 @@ def monkey_patch_particles():
     :return:
     """
     log.info('Monkey patching DataParticle.generate')
-    import mi.core.instrument.data_particle
+    import mi.core.instrument.dataset_data_particle
 
     def _generate(self, sorted=False):
         return self.generate_dict()
 
-    mi.core.instrument.data_particle.DataParticle.generate = _generate
+    mi.core.instrument.dataset_data_particle.DataParticle.generate = _generate
 
 
 def log_timing(func):

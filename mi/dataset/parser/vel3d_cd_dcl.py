@@ -18,7 +18,7 @@ log = get_logger()
 from mi.core.common import BaseEnum
 from mi.core.exceptions import UnexpectedDataException, SampleException
 from mi.dataset.dataset_parser import SimpleParser
-from mi.core.instrument.data_particle import DataParticle
+from mi.core.instrument.dataset_data_particle import DataParticle
 from mi.dataset.parser.common_regexes import DATE_YYYY_MM_DD_REGEX, TIME_HR_MIN_SEC_MSEC_REGEX
 import vel3d_velpt_common
 

@@ -17,7 +17,7 @@ import calendar
 import csv
 import time
 import math
-from mi.core.instrument.data_particle import DataParticle, DataParticleKey
+from mi.core.instrument.dataset_data_particle import DataParticle, DataParticleKey
 from mi.dataset.dataset_parser import SimpleParser
 from mi.core.log import get_logger
 log = get_logger()
